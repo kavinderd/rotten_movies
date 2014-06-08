@@ -1,0 +1,143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=7jvzg223pxhz55thnq29n62c&limit=10&page=1&q=lord%20of%20the%20rings
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate
+      Content-Language:
+      - en-US
+      Content-Type:
+      - text/javascript;charset=ISO-8859-1
+      Date:
+      - Fri, 06 Jun 2014 14:31:44 GMT
+      Expires:
+      - '-1'
+      Server:
+      - Mashery Proxy
+      Set-Cookie:
+      - JSESSIONID=0002F86BCA18F0D16851FC8B9D1FB5F9; Path=/; HttpOnly
+      - ServerID=1335; Path=/
+      Vary:
+      - User-Agent,Accept-Encoding
+      X-Mashery-Responder:
+      - prod-j-worker-us-east-1c-34.mashery.com
+      Content-Length:
+      - '21324'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {"total":15,"movies":[{"id":"10156","title":"The Lord of the Rings: The Return
+        of the King","year":2003,"mpaa_rating":"PG-13","runtime":201,"critics_consensus":"Visually
+        breathtaking and emotionally powerful,  The Lord of the Rings - The Return
+        of the King is a moving and satisfying conclusion to a great trilogy.","release_dates":{"theater":"2003-12-17","dvd":"2004-05-25"},"ratings":{"critics_rating":"Certified
+        Fresh","critics_score":94,"audience_rating":"Upright","audience_score":86},"synopsis":"","posters":{"thumbnail":"http://content9.flixster.com/movie/11/16/64/11166423_mob.jpg","profile":"http://content9.flixster.com/movie/11/16/64/11166423_pro.jpg","detailed":"http://content9.flixster.com/movie/11/16/64/11166423_det.jpg","original":"http://content9.flixster.com/movie/11/16/64/11166423_ori.jpg"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512","characters":["Frodo Baggins"]},{"name":"Ian McKellen","id":"162653241","characters":["Gandalf"]},{"name":"Viggo
+        Mortensen","id":"162654541","characters":["Aragorn"]},{"name":"Sean Astin","id":"162659177","characters":["Samwise
+        Gamgee"]},{"name":"Orlando Bloom","id":"162652240","characters":["Legolas"]}],"alternate_ids":{"imdb":"0167260"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/10156.json","alternate":"http://www.rottentomatoes.com/m/the_lord_of_the_rings_the_return_of_the_king/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/10156/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/10156/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/10156/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/10156/similar.json"}},{"id":"11649","title":"The
+        Lord of the Rings","year":1978,"mpaa_rating":"PG","runtime":132,"release_dates":{"theater":"1978-11-15","dvd":"2001-09-11"},"ratings":{"critics_rating":"Rotten","critics_score":48,"audience_rating":"Upright","audience_score":65},"synopsis":"","posters":{"thumbnail":"http://content7.flixster.com/movie/11/15/29/11152973_mob.jpg","profile":"http://content7.flixster.com/movie/11/15/29/11152973_pro.jpg","detailed":"http://content7.flixster.com/movie/11/15/29/11152973_det.jpg","original":"http://content7.flixster.com/movie/11/15/29/11152973_ori.jpg"},"abridged_cast":[{"name":"Christopher
+        Guard","id":"162673771","characters":["Frodo"]},{"name":"William Squire","id":"162673772","characters":["Gandalf"]},{"name":"Michael
+        Sholes","id":"770949605"},{"name":"John Hurt","id":"162653221","characters":["Aragorn"]},{"name":"Simon
+        Chandler","id":"238492506","characters":["Meriadoc"]}],"alternate_ids":{"imdb":"0077869"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/11649.json","alternate":"http://www.rottentomatoes.com/m/lord_of_the_rings/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/11649/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/11649/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/11649/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/11649/similar.json"}},{"id":"10513","title":"The
+        Lord of the Rings: The Two Towers","year":2002,"mpaa_rating":"PG-13","runtime":180,"critics_consensus":"The
+        Two Towers balances spectacular action with emotional storytelling, leaving
+        audiences both wholly satisfied and eager for the final chapter.","release_dates":{"theater":"2002-12-12","dvd":"2003-08-26"},"ratings":{"critics_rating":"Certified
+        Fresh","critics_score":96,"audience_rating":"Upright","audience_score":95},"synopsis":"","posters":{"thumbnail":"http://content7.flixster.com/movie/11/16/64/11166421_mob.jpg","profile":"http://content7.flixster.com/movie/11/16/64/11166421_pro.jpg","detailed":"http://content7.flixster.com/movie/11/16/64/11166421_det.jpg","original":"http://content7.flixster.com/movie/11/16/64/11166421_ori.jpg"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512","characters":["Frodo Baggins"]},{"name":"Ian McKellen","id":"162653241","characters":["Gandalf"]},{"name":"Liv
+        Tyler","id":"162661412","characters":["Arwen"]},{"name":"Viggo Mortensen","id":"162654541","characters":["Aragorn"]},{"name":"Sean
+        Astin","id":"162659177","characters":["Samwise Gamgee"]}],"alternate_ids":{"imdb":"0167261"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/10513.json","alternate":"http://www.rottentomatoes.com/m/the_lord_of_the_rings_the_two_towers/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/10513/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/10513/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/10513/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/10513/similar.json"}},{"id":"12769","title":"The
+        Lord of the Rings: The Fellowship of the Ring","year":2001,"mpaa_rating":"PG-13","runtime":165,"critics_consensus":"Full
+        of eye-popping special effects, and featuring a pitch-perfect cast, The Lord
+        of the Rings: The Fellowship of the Ring brings J.R.R. Tolkien''s classic
+        to vivid life.","release_dates":{"theater":"2001-12-19","dvd":"2002-08-06"},"ratings":{"critics_rating":"Certified
+        Fresh","critics_score":91,"audience_rating":"Upright","audience_score":95},"synopsis":"","posters":{"thumbnail":"http://content6.flixster.com/movie/11/16/64/11166420_mob.jpg","profile":"http://content6.flixster.com/movie/11/16/64/11166420_pro.jpg","detailed":"http://content6.flixster.com/movie/11/16/64/11166420_det.jpg","original":"http://content6.flixster.com/movie/11/16/64/11166420_ori.jpg"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512","characters":["Frodo Baggins"]},{"name":"Ian McKellen","id":"162653241","characters":["Gandalf"]},{"name":"Ian
+        Holm","id":"162653927","characters":["Bilbo Baggins"]},{"name":"Viggo Mortensen","id":"162654541","characters":["Aragorn"]},{"name":"Sean
+        Bean","id":"162652874","characters":["Boromir"]}],"alternate_ids":{"imdb":"0120737"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/12769.json","alternate":"http://www.rottentomatoes.com/m/the_lord_of_the_rings_the_fellowship_of_the_ring/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/12769/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/12769/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/12769/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/12769/similar.json"}},{"id":"771245675","title":"The
+        Lord of the Rings: The Fellowship of the Ring (Extended)","year":2001,"mpaa_rating":"PG-13","runtime":228,"release_dates":{"theater":"2001-01-01"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":98},"synopsis":"","posters":{"thumbnail":"http://content7.flixster.com/movie/11/16/64/11166445_mob.jpg","profile":"http://content7.flixster.com/movie/11/16/64/11166445_pro.jpg","detailed":"http://content7.flixster.com/movie/11/16/64/11166445_det.jpg","original":"http://content7.flixster.com/movie/11/16/64/11166445_ori.jpg"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512"},{"name":"Ian McKellen","id":"162653241"},{"name":"Liv
+        Tyler","id":"162661412"},{"name":"Viggo Mortensen","id":"162654541"},{"name":"Sean
+        Astin","id":"162659177"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245675.json","alternate":"http://www.rottentomatoes.com/m/lord_of_the_rings_the_fellowship_of_the_ring_extended/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245675/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245675/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245675/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245675/similar.json"}},{"id":"771307026","title":"The
+        Lord of the Rings: The Return of the King (Extended)","year":2003,"mpaa_rating":"PG-13","runtime":225,"release_dates":{"theater":"2003-12-05"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":98},"synopsis":"","posters":{"thumbnail":"http://content8.flixster.com/movie/11/16/64/11166446_mob.jpg","profile":"http://content8.flixster.com/movie/11/16/64/11166446_pro.jpg","detailed":"http://content8.flixster.com/movie/11/16/64/11166446_det.jpg","original":"http://content8.flixster.com/movie/11/16/64/11166446_ori.jpg"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512"},{"name":"Liv Tyler","id":"162661412"},{"name":"Ian
+        McKellen","id":"162653241"},{"name":"Viggo Mortensen","id":"162654541"},{"name":"Sean
+        Astin","id":"162659177"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771307026.json","alternate":"http://www.rottentomatoes.com/m/lord_of_the_rings_the_return_of_the_king_extended/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771307026/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771307026/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771307026/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771307026/similar.json"}},{"id":"771323009","title":"Lord
+        Of The Rings: The Fellowship Of The Rings & Two Towers (Double Bill)","year":2003,"mpaa_rating":"PG-13","runtime":375,"release_dates":{"theater":"2003-01-01"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":94},"synopsis":"","posters":{"thumbnail":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","profile":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","detailed":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","original":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512"},{"name":"Liv Tyler","id":"162661412"},{"name":"Ian
+        McKellen","id":"162653241"},{"name":"Viggo Mortensen","id":"162654541"},{"name":"Sean
+        Astin","id":"162659177"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771323009.json","alternate":"http://www.rottentomatoes.com/m/lord_of_the_rings_the_fellowship_of_the_rings_and_two_towers/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771323009/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771323009/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771323009/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771323009/similar.json"}},{"id":"771314636","title":"The
+        Lord of the Rings: The Two Towers (Extended)","year":2002,"mpaa_rating":"PG-13","runtime":"","release_dates":{"theater":"2002-12-12"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":98},"synopsis":"","posters":{"thumbnail":"http://content9.flixster.com/movie/11/16/64/11166447_mob.jpg","profile":"http://content9.flixster.com/movie/11/16/64/11166447_pro.jpg","detailed":"http://content9.flixster.com/movie/11/16/64/11166447_det.jpg","original":"http://content9.flixster.com/movie/11/16/64/11166447_ori.jpg"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512"},{"name":"Ian McKellen","id":"162653241"},{"name":"Liv
+        Tyler","id":"162661412"},{"name":"Viggo Mortensen","id":"162654541"},{"name":"Sean
+        Astin","id":"162659177"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771314636.json","alternate":"http://www.rottentomatoes.com/m/the_lord_of_the_rings_the_two_towers_2002/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771314636/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771314636/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771314636/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771314636/similar.json"}},{"id":"771320780","title":"The
+        Lord Of The Rings Trilogy","year":2012,"mpaa_rating":"PG-13","runtime":"","release_dates":{"theater":"2012-12-08"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":97},"synopsis":"On
+        Saturday, December 8 starting at 10am, prepare for the most highly anticipated
+        journey of the year by watching all three director''s cut editions of \"The
+        Lord of the Rings\" back to back.","posters":{"thumbnail":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","profile":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","detailed":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","original":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif"},"abridged_cast":[],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771320780.json","alternate":"http://www.rottentomatoes.com/m/the_lord_of_the_rings_trilogy/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771320780/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771320780/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771320780/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771320780/similar.json"}},{"id":"770948204","title":"Master
+        of the Rings - The Unauthorized Story Behind J.R.R. Tolkien''s The Lord of
+        the Rings","year":2001,"mpaa_rating":"Unrated","runtime":60,"release_dates":{"theater":"2001-12-04","dvd":"2001-12-04"},"ratings":{"critics_score":-1,"audience_rating":"Spilled","audience_score":50},"synopsis":"","posters":{"thumbnail":"http://content6.flixster.com/movie/10/99/67/10996736_mob.jpg","profile":"http://content6.flixster.com/movie/10/99/67/10996736_pro.jpg","detailed":"http://content6.flixster.com/movie/10/99/67/10996736_det.jpg","original":"http://content6.flixster.com/movie/10/99/67/10996736_ori.jpg"},"abridged_cast":[{"name":"Anke
+        Buttner","id":"771401302"},{"name":"Humphrey Carpenter","id":"771401303"},{"name":"J.R.R.
+        Tolkien","id":"770723659"}],"alternate_ids":{"imdb":"0308561"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/770948204.json","alternate":"http://www.rottentomatoes.com/m/master_of_the_rings_the_unauthorized_story_behind_jrr_tolkiens_the_lord_of_the_rings/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/770948204/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/770948204/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/770948204/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/770948204/similar.json"}},{"id":"770824306","title":"J.R.R.
+        Tolkien and the Birth of The Lord of the Rings","year":2004,"mpaa_rating":"Unrated","runtime":60,"release_dates":{"theater":"2004-12-31","dvd":"2004-12-21"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":63},"synopsis":"","posters":{"thumbnail":"http://content6.flixster.com/movie/11/01/63/11016316_mob.jpg","profile":"http://content6.flixster.com/movie/11/01/63/11016316_pro.jpg","detailed":"http://content6.flixster.com/movie/11/01/63/11016316_det.jpg","original":"http://content6.flixster.com/movie/11/01/63/11016316_ori.jpg"},"abridged_cast":[],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/770824306.json","alternate":"http://www.rottentomatoes.com/m/jrr-tolkien-and-the-birth-of-the-lord-of-the-rings/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/770824306/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/770824306/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/770824306/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/770824306/similar.json"}},{"id":"771322806","title":"Special
+        Extended Edition The Lord Of The Rings: The Fellowship Of The Ring","year":2003,"mpaa_rating":"PG-13","runtime":225,"release_dates":{"theater":"2003-12-05"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":99},"synopsis":"","posters":{"thumbnail":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","profile":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","detailed":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","original":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512"},{"name":"Liv Tyler","id":"162661412"},{"name":"Ian
+        McKellen","id":"162653241"},{"name":"Viggo Mortensen","id":"162654541"},{"name":"Sean
+        Astin","id":"162659177"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322806.json","alternate":"http://www.rottentomatoes.com/m/special_extended_edition_the_lord_of_the_rings_the_fellowship_of_the_ring/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322806/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322806/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322806/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322806/similar.json"}},{"id":"771322641","title":"Special
+        Extended Edition The Lord Of The Rings: The Trilogy","year":2003,"mpaa_rating":"PG-13","runtime":225,"release_dates":{"theater":"2003-12-05"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":99},"synopsis":"","posters":{"thumbnail":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","profile":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","detailed":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","original":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif"},"abridged_cast":[{"name":"Elijah
+        Wood","id":"162652512"},{"name":"Liv Tyler","id":"162661412"},{"name":"Ian
+        McKellen","id":"162653241"},{"name":"Viggo Mortensen","id":"162654541"},{"name":"Sean
+        Astin","id":"162659177"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322641.json","alternate":"http://www.rottentomatoes.com/m/special_extended_edition_the_lord_of_the_rings_the_trilogy/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322641/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322641/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322641/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771322641/similar.json"}},{"id":"771147628","title":"National
+        Geographic: Beyond the Movie - The Lord of the Rings","year":2002,"mpaa_rating":"Unrated","runtime":60,"release_dates":{},"ratings":{"critics_score":-1,"audience_score":50},"synopsis":"","posters":{"thumbnail":"http://content6.flixster.com/movie/11/16/10/11161012_mob.jpg","profile":"http://content6.flixster.com/movie/11/16/10/11161012_pro.jpg","detailed":"http://content6.flixster.com/movie/11/16/10/11161012_det.jpg","original":"http://content6.flixster.com/movie/11/16/10/11161012_ori.jpg"},"abridged_cast":[{"name":"Phil
+        Crowley","id":"770768801"},{"name":"John Howe","id":"770740043"},{"name":"Peter
+        McHugh","id":"771056269"},{"name":"Oliver Muirhead","id":"770673414"},{"name":"Alan
+        Lee","id":"770926209"}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771147628.json","alternate":"http://www.rottentomatoes.com/m/national_geographic_beyond_the_movie_the_lord_of_the_rings/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771147628/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771147628/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771147628/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771147628/similar.json"}},{"id":"771221481","title":"Creating
+        the Lord of the Rings Symphony: A Composer''s Journey Through Middle-Earth","year":2004,"mpaa_rating":"Unrated","runtime":52,"release_dates":{"theater":"2004-12-14"},"ratings":{"critics_score":-1,"audience_rating":"Upright","audience_score":86},"synopsis":"","posters":{"thumbnail":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","profile":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","detailed":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif","original":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif"},"abridged_cast":[{"name":"Howard
+        Shore","id":"770711781"}],"alternate_ids":{"imdb":"0456052"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771221481.json","alternate":"http://www.rottentomatoes.com/m/more_at_imdbpro_creating_the_lord_of_the_rings_symphony_a_composers_journey_through_middle_earth/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771221481/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771221481/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771221481/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771221481/similar.json"}}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q=lord+of+the+rings&page_limit=30&page=1"},"link_template":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q={search-term}&page_limit={results-per-page}&page={page-number}"}
+
+'
+    http_version: 
+  recorded_at: Fri, 06 Jun 2014 14:31:51 GMT
+recorded_with: VCR 2.9.2
