@@ -3,7 +3,7 @@ module RottenMovies
 
   class Client
   	include HTTParty
-  	include Search
+  	include RottenMovies::Search
   	BASE_URL = "http://api.rottentomatoes.com/api/public/"
   	attr_reader :api_key, :base_url
 
