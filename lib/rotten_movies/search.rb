@@ -1,5 +1,3 @@
-require 'pry'
-require 'pry-debugger'
 module RottenMovies
   module Search
   	SEARCH_PATH="movies.json"
