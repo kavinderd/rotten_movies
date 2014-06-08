@@ -1,4 +1,5 @@
 require "httparty"
+require "rotten_movies/search"
 module RottenMovies
 
   class Client
